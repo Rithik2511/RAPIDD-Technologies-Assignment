@@ -6,4 +6,5 @@ The File Attached in the repository is a standalone exe for windows, i have not 
 The Application is a barebones application with only functionality mentioned in the assignment and no UI added to it.
 The Project requires dotnet Core 8 framework or a higher framework to run as it was build on framework version 8;
 Filter functionality is also not added as the table is created purely in Javascript and did not have time to complete this 😢
+Application Currently Runs On Port 5000 if the port is busy the app might not start
 
