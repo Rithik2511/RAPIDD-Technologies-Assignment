@@ -1,0 +1,37 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+<details>
+    <summary>Click to expand/collapse</summary>
+    <div class="content">
+        <p>
+            Employees who have worked for less than 100 hours are marked with <span style="display: inline-block; width: 20px; height: 20px; background-color: lightcoral; vertical-align: middle; margin-right: 5px;"></span>
+        </p>
+    </div>
+    <div class="text-center">
+        <button onclick="CreateGrid()" class="btn btn-primary" style="padding: 10px 20px; background-color: #007bff; color: white; text-decoration: none; border-radius: 5px; display: inline-block;">
+            Create/Refresh Grid
+        </button>
+        <button onclick="CreateChart()" class="btn btn-primary" style="padding: 10px 20px; background-color: #007bff; color: white; text-decoration: none; border-radius: 5px; display: inline-block;">
+            Create/Refresh Chart
+        </button>
+        <a href="/Home/CreateChart" download="my-pie-chart.png" class="btn btn-primary" style="padding: 10px 20px; background-color: #007bff; color: white; text-decoration: none; border-radius: 5px; display: inline-block;">
+            Download PNG Image
+        </a>
+    </div>
+
+    <div id="grid"></div>
+
+    <h3>Generated Pie Chart</h3>
+
+    <div id="PieChart" style="margin-bottom: 15px;">
+        
+    </div>
+
+
+
+
+
+</details>
+
+<script src="~/js/Assignment.js"></script>
